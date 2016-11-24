@@ -50,13 +50,26 @@ body{
 	clear: both;
 	display: block;
 }
+.menu{
+	border-bottom: 3px solid orange;
+}
 
 .menu__link{
-	margin: 1px;
+	margin: 5px;
 	padding: 5px;
-	text-decoration: none;
+	
 	border: 1px solid black;
-	/*/*text-align: center;*/
 	background-color: blue;
-	color: red;*/
+	display: block
+	
+}
+
+.menu__link a{
+	
+	text-decoration: none;
+	color: white;
+}
+
+.menu__link:hover{
+	border-bottom: 3px solid black;
 }
