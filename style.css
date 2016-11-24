@@ -21,7 +21,7 @@
 
 .container{
 	width: 100%;
-	
+	overflow: hidden;
 }
 
 .sidebar{
@@ -41,4 +41,9 @@
 	border: 1px solid black;
 	color: white;
 	text-align: center;
+}
+.clearfix:after{
+	content: '';
+	clear: both;
+	display: block;
 }
