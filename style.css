@@ -25,17 +25,19 @@ body{
 .container{
 	width: 100%;
 	overflow: hidden;
+	clear: both;
 }
 
 .sidebar{
 	width: 25%;
-	background-color: orange;
+	background-color: grey;
 	float: left;
 }
 .content{
 	width: 65%;
 	background-color: grey;
 	float:right;
+	margin-right: 50px;
 }
 .footer{
 	width: 100%;
@@ -51,7 +53,11 @@ body{
 	display: block;
 }
 .menu{
-	border-bottom: 3px solid orange;
+	
+}
+.menu__vertical{
+	display:inline-block;
+	float: right;
 }
 
 .menu__link{
@@ -65,11 +71,11 @@ body{
 }
 
 .menu__link a{
-	
+	display: block;
 	text-decoration: none;
 	color: white;
 }
 
 .menu__link:hover{
-	border-bottom: 3px solid black;
+	box-shadow: 5px 2px 2px black;
 }
